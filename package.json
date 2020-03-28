@@ -1,8 +1,7 @@
 {
   "name": "d3-js-parcel",
   "scripts": {
-    "away": "parcel -p 4000 src/index.html --no-cache --out-dir=build/",
-    "build": "parcel build src/index.html"
+    "build": "parcel build --out-dir='build/' --no-cache --no-source-maps src/index.html"
   },
   "dependencies": {
     "d3": "^5.15.0"
